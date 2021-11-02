@@ -2061,8 +2061,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/banner.jpg") center center;
-		background-size: cover;
+		background: url("../../images/banner2.png") center center;
+		background-size:cover;
 		padding: 0;
 	}
 
@@ -2415,6 +2415,10 @@ input, select, textarea {
 	@media screen and (max-width: 1680px) {
 
 		/* Basic */
+
+		#nav{
+			display: none;
+		}
 
 			body, input, textarea, select {
 				font-size: 12pt;
